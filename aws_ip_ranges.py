@@ -21,7 +21,7 @@ def __invoke_ip_range_api__(region):
         ip_ranges = json.loads(r.text)
         return list(filter(lambda obj: obj['region']==region, ip_ranges.get('prefixes',[])))
     except Exception as e:
-        print(e.__traceback__)
+        # print(e.__traceback__)
         return []
 
 if __name__ == "__main__":

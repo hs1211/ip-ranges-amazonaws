@@ -8,6 +8,9 @@ Pypi module for get ip range in aws
 ```
 ```
 
+## TK
+- [allow cidr](https://github.com/mozmeao/django-allow-cidr)
+
 ## Licence
 ---
 MIT
